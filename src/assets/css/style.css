@@ -1,0 +1,242 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.light{
+    background-color: white!important;
+    color: black!important;
+}
+.dark{
+    background-color: black!important;
+    color: white!important;
+}
+
+.mode-img1{
+    background-image: url(../Images/img-1.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.mode-img2{
+    background-image: url(../Images/img-2.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* LMS */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-img-width{
+    width: 280px;
+}
+.hero-text {
+  max-width: 600px;
+}
+.feature-icon {
+  font-size: 2rem;
+  color: #007bff;
+}
+.feature-card {
+  text-align: center;
+}
+.img-width{
+    width: 150px;
+}
+
+/* Form Css */
+
+
+::placeholder{
+    padding: 4px;
+    
+}
+.card-width{
+    width: 50%;
+}
+/* .bg-img{
+    background-image: url(/assest/css/7361118.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+} */
+
+#txt_fName{
+    opacity: 0.5;
+}
+
+@media screen and (max-width : 760px) {
+    .card-width{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width : 770px) {
+    .input-width{
+        width: 100%!important;
+    }
+}
+@media screen and (min-width : 780px) and (max-width : 1050px) {
+    .input-width-1050{
+        width: 100%!important;
+    }
+}
+@media screen and (min-width : 1100px) {
+    .input-max-width{
+        width: 100%!important;
+    }
+}
+
+
+/* Form Three  Css */
+
+.card-width{
+    width: 60%;
+}
+.bg-color{
+    background-color: #40e0a0;
+}
+.bg-color-client{
+    background-color: #23334d!important;
+}
+@media screen and (max-width : 760px) {
+    .card-width{
+        width: 100%;
+    }
+}
+
+
+/* weather app */
+
+/* App.css */
+* {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+	background-color: #f7f7f7;
+}
+
+.app-name {
+	font-size: 2.3rem;
+	color: rgb(17, 144, 0);
+	margin-bottom: 16px;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+	min-height: 440px;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	margin: 128px auto;
+	border-radius: 10px;
+	padding-bottom: 32px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.city-search {
+	width: 100%;
+	max-width: 400px;
+	box-sizing: border-box;
+	border: 2px solid rgb(204, 204, 204);
+	outline: none;
+	border-radius: 20px;
+	font-size: 16px;
+	background-color: #e5eef0;
+	background-position: 10px 12px;
+	background-repeat: no-repeat;
+	padding: 12px 40px 12px 40px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	color: #333;
+}
+
+.city-search:focus {
+	width: 100%;
+}
+
+.city-name {
+	font-size: 1.5rem;
+	color: #444;
+	margin-bottom: 8px;
+}
+
+.date {
+	font-size: 1.25em;
+	font-weight: 500;
+	color: #777;
+}
+
+.icon-temp {
+	font-size: 3rem;
+	font-weight: 700;
+	color: #1e2432;
+	text-align: center;
+}
+
+.deg {
+	font-size: 1.3rem;
+	vertical-align: super;
+}
+
+.des-wind {
+	font-weight: 500;
+	color: #666;
+}
+
+.error-message {
+	display: block;
+	text-align: center;
+	color: #d32f2f;
+	font-size: 24px;
+	margin-top: auto;
+}
+
+.Loader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.Loader>div {
+	margin: 0 auto;
+}
+
+.weather-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.weather-icon img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bg-img{
+	background-image: url(../Images/mountain-peak.jpg) !important;
+	background-position: center !important;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	padding:250px 0 ;
+	/* width: 100% !important; */
+	
+}
